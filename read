@@ -1,0 +1,44 @@
+1  
+a. Design a simple neural network model    
+b. Calculate the output of neural net  
+2  
+a. Generate AND/NOT function using 
+McCulloch-Pitts (M-P) neural net  
+  
+b. Generate XOR function using McCulloch
+Pitts neural net  
+3  
+a. Write a program to implement Hebb’s rule    
+b. Write a program to implement of delta 
+rule  
+4  
+a. Write a program for Back Propagation Algorithm   
+b. Write a program for error Back propagation algorithm  
+
+5 
+a. Write a program for Hopfield Network    
+b. Write a program for Radial Basis function  
+
+
+  6a. Write a program for Kohonen 
+SelfOrganizing map  
+  b. Write a program for Adaptive Resonance Theory  
+c. Implement cross validation  
+
+7 
+a. Write a program for Line Separation    
+b. Write a program for Hopfield network 
+model of associative memory  
+
+8 a. Implement the membership operator: in, not in  
+  b. Implement the identity operator: is, is not  
+9   
+a. Find ratios using fuzzy logic    
+b. Solve Tipping problem using fuzzy logic  
+
+10
+a. Implementation of Simple genetic 
+algorithm  
+  
+b. Solve Travelling salesman problem (TSP) 
+using GA  
