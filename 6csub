@@ -1,0 +1,36 @@
+Leave one out cross validation – LOOCV  
+install.packages("caret")  
+library(caret)  
+# Define training control  
+train.control<-trainControl(method="LOOCV")  
+  
+# Train the model  
+model<-train(Fertility~., data=swiss, method="lm",  
+             trControl=train.control)  
+  
+# Summarize the results  
+print(model)
+
+
+K-fold cross-validation  
+# Define training control  
+set.seed(123)  
+train.control<-trainControl(method="cv", number=10)  
+# Train the model  
+model<-train(Fertility~., data=swiss, method="lm",  
+             trControl=train.control)  
+  
+# Summarize the results  
+print(model)
+
+Repeated K-fold cross-validation  
+# Define training control  
+set.seed(123)  
+train.control<-trainControl(method="repeatedcv",  
+                            number=10, repeats=3)  
+# Train the model  
+model<-train(Fertility~., data=swiss, method="lm",  
+             trControl=train.control)  
+ 
+# Summarize the results  
+print(model)
